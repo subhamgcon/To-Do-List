@@ -1,0 +1,66 @@
+body{
+  background: #C33764;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+
+.to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h2{
+  font-size: 3.5rem;
+  color: whitesmoke;
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: wheat;
+}
+input[type="text"]{
+  font-size: 1.7rem;
+  padding: 10px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  color: brown;
+
+}
+ol{
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: antiquewhite;
+  margin-bottom: 10px;
+  border: 3px solid lightgrey;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text{
+  flex: 1;
+}
+.delete-button{
+  background-color: red;
+}
+.move-button{
+  background-color: blue;
+}
+.delete-button, .move-button{
+  padding: 8px 12px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+.add-button{
+  background-color: greenyellow;
+  color: black;
+  border-radius: 5px;
+}
